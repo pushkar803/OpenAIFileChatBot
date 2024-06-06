@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     openai_key = ""
     sys_msg = "You are a helpful financial advisor."
-    fname = 'test.pdf'
+    fname = '06062024 -10060624.pdf'
 
     chat_bot = OpenAiFileChatBot(openai_key, fname, sys_msg)
 
